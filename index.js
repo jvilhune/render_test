@@ -22,7 +22,7 @@ app.use(express.static('build'))
 let notes = [
   {
     id: 1,
-    content: "HTML is easy",
+    content: "HTML is easy biisi",
     important: true
   },
   {
