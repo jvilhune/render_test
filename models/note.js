@@ -4,7 +4,7 @@ mongoose.set('strictQuery', false)
 
 /* mongoose library cant't read the url from the .env file because there is '&' character in the url */
 //const url = process.env.MONGODB_URI
-const url = `mongodb+srv://jvmongodb:opto4646asdf@cluster0.dvmusb2.mongodb.net/?retryWrites=true&w=majority`
+
 
 console.log('connecting to', url)
 
