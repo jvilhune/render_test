@@ -1,15 +1,12 @@
-# fly.toml app configuration file generated for wild-breeze-599 on 2023-08-25T15:58:55+03:00
+# fly.toml app configuration file generated for green-sea-8395 on 2023-08-25T19:01:48+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "wild-breeze-599"
+app = "green-sea-8395"
 primary_region = "arn"
 
 [build]
-
-[env]
-  PORT = "3000"
 
 [http_service]
   internal_port = 3000
